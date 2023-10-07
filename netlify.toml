@@ -1,0 +1,3 @@
+[build]
+  command = "npm install -g node-gyp && your-build-command"
+  publish = "your-publish-directory"
