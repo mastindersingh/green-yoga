@@ -2,7 +2,7 @@
 
 This project was build with [Gatsby](https://www.gatsbyjs.org/)
 
-## Prerequisites
+## Prerequisites add 
 
 1. node 11 or higher
 2. yarn 1
