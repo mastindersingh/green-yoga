@@ -1,3 +1,7 @@
 [build]
-  command = "npm install -g node-gyp && your-build-command"
-  publish = "your-publish-directory"
+  command = "npm install -g node-gyp && yarn install && yarn build"
+  publish = "/"  # Replace with your publish directory
+
+[build.environment]
+  NODE_VERSION = "14"  # Specify the Node.js version you need
+  YARN_VERSION = "1.22.11"  # Specify the Yarn version you need
