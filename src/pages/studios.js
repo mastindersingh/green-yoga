@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import ContactDataPBerg from "../data/contact-p-berg.json"
 import ContactDataXBerg from "../data/contact-x-berg.json"
 import { graphql } from "gatsby"
-import Img from "gatsby-image/withIEPolyfill"
+import Img from "gatsby-plugin-image/withIEPolyfill"
 import "./studios.css"
 
 export default ({ data }) => {
