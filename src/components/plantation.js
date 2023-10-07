@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from 'gatsby-image/withIEPolyfill'
+import Img from 'gatsby-plugin-image/withIEPolyfill'
 import { useStaticQuery, graphql } from 'gatsby'
 import "./plantation.css"
 
