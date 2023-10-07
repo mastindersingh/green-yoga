@@ -1,5 +1,5 @@
 [build]
-  command = "npm install -g node-gyp && yarn install && yarn build"
+  command = "npm install -g node-gyp"
   publish = "/"  # Replace with your publish directory
 
 [build.environment]
