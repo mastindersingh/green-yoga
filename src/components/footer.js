@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Img from "gatsby-image/withIEPolyfill"
+import Img from "gatsby-plugin-image/withIEPolyfill"
 import PhoneIcon from "../assets/icons/phone.svg"
 import SmsIcon from "../assets/icons/sms.svg"
 import { useStaticQuery, graphql } from "gatsby"
